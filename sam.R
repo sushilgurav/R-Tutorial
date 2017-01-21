@@ -16,7 +16,6 @@ print(class(x2))
 
 print(class(x))
 
-
 apple_colors<-c('green','yellow','red','red','red','red','green')
 factor_apple<-factor(apple_colors)
 print(factor_apple)
@@ -35,3 +34,25 @@ print(BMI)
 
 x=array(c(10,20,30),dim=c(2,3,3))
 print(x)
+
+x=array(c(10,20,30),dim=c(2,3))
+print(x)
+
+v<-c(2.5,56,25)
+t<-c(56,23,25)
+print(v+t)
+
+
+v<-c(2.5,56,25)
+t<-c(56,23,25)
+print(v%%t)
+
+
+v<-c(2.5,56,25)
+t<-c(56,23,25)
+print(v%/%t)
+
+v<-c(2.5,56,25)
+t<-c(56,23,25)
+print(v^t)
+
