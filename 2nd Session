@@ -58,3 +58,78 @@ for(i in v)
   print(i)
 }
 
+z<-0
+whlile(z<5)
+{
+  z<z+2
+  print(z)
+}
+
+v<-c("Hello","while loop")
+cnt<-2
+while(cnt<7){
+  print(v)
+  cnt=cnt+1
+}
+
+num<-1:5
+for(val in num){
+  if(val==3){
+    break
+  }
+print(val)
+}
+
+
+num<-1:5
+for(val in num){
+  if(val==3){
+ next
+    }
+  print(val)
+}
+
+color="green"
+switch(color,"red"={print("apple")},"yellow"={print("banana")},"green"={print("grapes")})
+
+x<-scan()
+
+y<-scan(what="")
+
+print(seq(32,44))
+
+print(mean(32,44))
+
+print(sum(12,35))
+
+new.function<-function(a)
+  for(i in 1:a)
+  {
+    b<-i^2
+    print(b)
+  }
+
+new.function(6)
+
+myfirstfun<-function(n)
+{
+  n*n
+}
+
+k<-10
+m<-myfirstfun(k)
+m
+
+myforthfun<-function(n,y=2)
+{
+  n^y 
+}
+myforthfun(2,3)
+
+
+num<-1:5
+for(val in num)
+next
+break
+print(val)
+
