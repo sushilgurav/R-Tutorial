@@ -1,0 +1,18 @@
+checkvote<-function(n)
+{
+  if(n>=18)
+  {
+    print("Eligible to vote")
+  }else{
+    print("Not Eligible to vote")
+  }
+}
+checkvote(12)
+
+num<-1:14
+for(val in num){
+  if(val==12){
+    break
+  }
+  print(val)
+}
