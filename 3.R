@@ -43,8 +43,16 @@ newdata<-read.csv("output.csv")
 print(newdata)
 
 dataFile=read.csv("output.csv",header=TRUE)
-col1=1;
-col3=3;
-modifiedDataFile1=dataFile[,c(col1,col3)]
+id=1;
+dept=5;
+modifiedDataFile1=dataFile[,c(id,dept)]
+print(modifiedDataFile1)
 write.csv(modifiedDataFile1,file="Myinfo.csv")
 
+vec_rev=c(100,20,500)
+vec_mar=vec_rev*0.02
+vec_city=c("HUBLI","DHARWAD","BELGAUM")
+salesdf=data.frame(vec_rev,vec_mar,vec_city)
+write.csv(salesdf,"mydataframe.csv",row.names=FALSE)
+salesdf_2=read.csv("mydataframe.csv")
+salesdf_2
