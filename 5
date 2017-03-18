@@ -1,0 +1,54 @@
+x <- c(151, 174, 138, 186, 128, 136, 179, 163, 152, 131)
+y <- c(63, 81, 56, 91, 47, 57, 76, 72, 62, 48) 
+# Apply the lm() function.
+
+relation <- lm(y~x) 
+print(relation)print(summary(relation))
+print(summary(relation))
+
+x <- c(151, 174, 138, 186, 128, 136, 179, 163, 152, 131)      # The resposne vector.
+y <- c(63, 81, 56, 91, 47, 57, 76, 72, 62, 48) 
+# Apply the lm() function.
+relation <- lm(y~x) # Find weight of a person with height 170.
+a <- data.frame(x=170) 
+result <- predict(relation,a)
+print(result)
+
+duration=faithful$eruptions# the eruption durations 
+waiting=faithful$waiting # the waiting interva
+plot(duration,waiting,xlab="Eruption duration",ylab="Time waited")
+
+input <- mtcars[,c("mpg","disp","hp","wt")] 
+print(head(input))
+
+glm(response ~ explanatory_variables, family=binomial)
+
+
+duration=faithful$eruptions # the eruption durations 
+waiting=faithful$waiting # the waiting interva
+plot(duration,waiting, # plot the variables 
+xlab="Eruption duration",      # x−axis label 
+ylab="Time waited")              # y−axis label
+
+abline(lm(waiting ~ duration))
+
+faithful        #inbuilt dataset
+duration = faithful$eruptions  # the eruption durations
+waiting = faithful$waiting         # the waiting interval 
+head(cbind(duration, waiting)) 
+
+plot(y,x,col="blue",main="Height & Weight Regression", abline(lm(x~y)),
+     cex = 1.9,pch=18,xlab="Weight in Kg",
+     ylab="Height in cm") 
+
+Y = 37.10+(-0.000937)*221+(-0.0311)*102+
+  (-3.8008)*2.91  
+print(Y)            
+
+y<-c(15,16,2,3,12,1,16,18,13,2)
+x1<-c(25,1,6,30,29,20,12,15,6,16)
+x2<-c(4,5,3,1,2,0,4,5,4,2)
+lm(y~x1+x2)
+
+
+     
