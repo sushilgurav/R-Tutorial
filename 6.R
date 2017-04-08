@@ -83,7 +83,7 @@ print(x)
 x<-pbinom(2,4,(4/5),lower.tail = FALSE)
 print(x)
 
-x<-pbinom(3,4,(4/5),lower.tail = FALSE)
+x<-pbinom(2,4,(1/5),lower.tail = FALSE)
 print(x)
 
 
